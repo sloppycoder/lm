@@ -11,6 +11,8 @@ license = "MIT"
 python = ">=3.11,<3.12"
 python-dotenv = "^1.0.0"
 loguru = "^0.7.2"
+openai = "^1.14.1"
+anthropic = "^0.20.0"
 
 
 [build-system]

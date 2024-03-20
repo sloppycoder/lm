@@ -11,23 +11,17 @@ This project is set up Python project with dev tooling pre-configured
 
 ## Setup
 
-The easiest way to get started is probably use [Jetpack.io devbox](https://www.jetpack.io/devbox). Install devbox first, then
+The easiest way to get started is use [Visual Studio Code with devcontainer](https://code.visualstudio.com/docs/devcontainers/containers)
 
-```shell
-devbox shell
 
-# you should ready to go
-
-```
-
-The more traditional way is to install python 3.10 and [poetry](https://python-poetry.org/), then
+The more traditional way is to install python 3.11 and [poetry](https://python-poetry.org/), then
 
 ```shell
 
 # create virtualenv
 poetry shell
 # install dependencies
-poetry install
+poetry install --no-root --with linting
 
 ```
 
